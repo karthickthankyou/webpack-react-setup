@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
